@@ -1,6 +1,6 @@
-=====
+==========
 app_polls
-=====
+==========
 
 app_polls is a simple Django app to conduct Web-based polls. For each
 question, visitors can choose between a fixed number of answers.
@@ -19,7 +19,7 @@ Quick start
 
 2. Include the polls URLconf in your project urls.py like this::
 
-path('app_polls/', include('app_polls.urls')),
+    path('app_polls/', include('app_polls.urls')),
 
 3. Run `python manage.py migrate` to create the app_polls models.
 
